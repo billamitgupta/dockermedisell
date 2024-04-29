@@ -1,0 +1,41 @@
+.nav{
+    display: flex ;
+    /* justify-content: center; */
+    background: linear-gradient(180deg, #89C8DD 0%, #73ADC1 100%);
+    
+    box-shadow: #6dd5ed;
+    
+}
+.navcon{
+    display: flex;
+    padding: 2vh;
+    
+    color: blue;
+    margin-left: 8vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+
+}
+button{
+    
+    background: blue;
+    color: aliceblue;
+    border-radius: 2vh;
+    width: 15vh;
+    height: 5vh;
+    margin-top: 1vh;
+    position: absolute;
+    right: 0%;
+    margin-right: 1vh;
+}
+
+
+li{
+    margin-right: 8vh;
+}
+.logo{
+    height: 5vh;
+    width: 5vh;
+    justify-content: center;
+   
+}

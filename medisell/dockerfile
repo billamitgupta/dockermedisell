@@ -1,0 +1,20 @@
+# Use the official Node.js image as base for the frontend
+FROM node:latest AS frontend
+
+# Set working directory for the frontend
+WORKDIR /app/frontend
+
+# Copy package.json and package-lock.json to the working directory
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy the rest of the frontend code
+COPY . .
+
+# Command to start the React application
+CMD ["npm", "start"]
+
+# Expose port 3000 for the React application
+EXPOSE 3000

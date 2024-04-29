@@ -1,0 +1,23 @@
+{
+  "name": "route",
+  "version": "1.0.0",
+  "description": "route",
+  "main": "route.js",
+  "scripts": {
+    "start": "node route.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mongo": "^0.1.0",
+    "mongoclient": "^1.0.3",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.0",
+    "nodemon": "^3.0.3",
+    "react": "^18.2.0"
+  }
+}

@@ -1,0 +1,20 @@
+# Use the official Node.js image as base for the backend
+FROM node:latest AS backend
+
+# Set working directory for the backend
+WORKDIR /app/backend
+
+# Copy package.json and package-lock.json to the working directory
+COPY ./package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy the rest of the backend code
+COPY . .
+
+# Expose port 8080 for the Node.js application
+EXPOSE 8080
+
+# Command to start the Node.js server
+CMD ["node", "route.js"]

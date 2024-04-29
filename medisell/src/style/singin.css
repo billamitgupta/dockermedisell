@@ -1,0 +1,31 @@
+.responsive-form {
+    padding: 6vh;
+    margin-left: 6vh;
+    max-width: 500px; /* Adjust the maximum width as per your design */
+    margin: auto;
+  }
+  
+  label {
+    padding: 1vh;
+  }
+  
+  input {
+    border: 1px;
+    margin: 1vh;
+    border-radius: 1.5vh;
+    background: #B4D8E4;
+    height: 5vh;
+    width: 100%;
+  }
+  
+  select {
+    width: 100%;
+  }
+  
+  input[type="submit"],
+  input[type="button"] {
+    width: 100%;
+    margin-top: 8vh;
+    background-color: blue;
+  }
+  
